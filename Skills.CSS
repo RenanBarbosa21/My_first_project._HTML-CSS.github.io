@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(15, 14, 14);
+}
+.baby{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 950px;
+    display: flex;
+}
+.ola {
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    color: aqua;
+    width: 300px;
+    height: 110px;
+    margin-top: 0;
+}
+  
+  .frase-surpresa {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .ola:hover .frase-surpresa {
+    opacity: 1;
+  }
+    
+  .frase-surpresaq {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .ola:hover .frase-surpresaq {
+    opacity: 1;
+  }
+  .apresentacao{
+    position: absolute;
+    color: darkgreen;
+    display: block;
+    margin-top: 325px;
+    margin-left: 300px;
+  }
+  .logo-prog{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 950px;
+  }
+  .texto2{
+    position: absolute;
+    color: darkgreen;
+    margin-top: 675px;
+    margin-left: 300px;
+  }
+.canto-superio{
+    color: darkgreen;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  
+}
